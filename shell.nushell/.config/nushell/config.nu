@@ -63,7 +63,7 @@ $env.path ++= ["/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 path add (brew --prefix bison | path parse | path join "bin")
 path add (brew --prefix flex  | path parse | path join "bin")
 
-source ~/.zoxide.nu
+# source ~/.zoxide.nu
 
 # jj util completion nushell | save completions-jj.nu
 #use completions-jj.nu *  # Or `source completions-jj.nu`

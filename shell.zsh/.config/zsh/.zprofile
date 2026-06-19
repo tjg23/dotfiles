@@ -22,6 +22,8 @@ path+=(~/.bun/bin)
 path+=(/Library/TeX)
 path+=(/opt/apache-maven-3.9.9/bin)
 path+=(/Library/NuSMV-2.6.0-Darwin/bin)
+path+=(~/.local/bin/depot_tools)
+path+=(~/.local/bin/other)
 path+=$JAVA_HOME/bin
 export PATH
 
