@@ -1,0 +1,110 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+	{
+		"context": "Workspace",
+		"bindings": {
+			// "shift shift": "file_finder::Toggle"
+		}
+	},
+	{
+		"context": "Editor && vim_mode == insert",
+		"bindings": {
+			// "j k": "vim::NormalBefore"
+		}
+	},
+	{
+		"context": "Editor",
+		"bindings": {
+			"alt-space": "editor::ToggleCodeActions"
+		}
+	},
+	{
+		"context": "Editor",
+		"bindings": {
+			"ctrl-/": [
+				"editor::ToggleComments",
+				{
+					"advance_downwards": false
+				}
+			]
+		}
+	},
+	{
+		"context": "Workspace",
+		"bindings": {
+			"cmd-?": "command_palette::Toggle"
+		}
+	},
+	{
+		"context": "Workspace",
+		"bindings": {
+			"cmd-/": "file_finder::Toggle"
+		}
+	},
+	{
+		"context": "Workspace",
+		"bindings": {
+			"cmd-shift-g": "git_panel::ToggleFocus"
+		}
+	},
+	{
+		"context": "Workspace",
+		"bindings": {
+			"cmd-.": "workspace::ToggleLeftDock"
+		}
+	},
+	{
+		"context": "Workspace",
+		"bindings": {
+			"alt-cmd-.": "workspace::ToggleRightDock"
+		}
+	},
+	{
+		"context": "Workspace",
+		"bindings": {
+			"cmd->": "workspace::ToggleBottomDock"
+		}
+	},
+	{
+		"context": "(Editor && mode == full)",
+		"bindings": {
+			"cmd->": "workspace::ToggleBottomDock"
+		}
+	},
+	{
+		"context": "Editor",
+		"bindings": {
+			"cmd-/": "file_finder::Toggle"
+		}
+	},
+	{
+		"context": "Editor",
+		"bindings": {
+			"cmd-.": "workspace::ToggleLeftDock"
+		}
+	},
+	{
+		"context": "Terminal",
+		"bindings": {
+			"cmd->": "workspace::ToggleBottomDock"
+		}
+	},
+	{
+		"context": "AcpThread > Editor",
+		"bindings": {
+			"alt-cmd-/": "workspace::ToggleRightDock"
+		}
+	},
+ {
+  "context": "AcpThread > Editor",
+  "bindings": {
+   "alt-cmd-.": "workspace::ToggleRightDock"
+  }
+ }
+]

@@ -1,0 +1,1008 @@
+git reset HEAD user/Vehicle.java
+git reset HEAD utils/DialogHelper.java
+git reset HEAD utils/GSON.java
+git restore CycloneCarpoolApp.java trips/MapPage.java trips/RouteInfo.java user/Vehicle.java utils/DialogHelper.java utils/GSON.java
+git status
+git diff user/User.java
+cd ../../../../res
+git status
+git reset HEAD layout/pending_request_item.xml
+git restore layout/pending_request_item.xml
+git reset HEAD values/mapbox_access_token.xml
+git restore values/mapbox_access_token.xml
+git reset HEAD layout/map_screen.xml
+git restore layout/map_screen.xml
+git reset HEAD layout/verification_popup.xml
+git restore layout/verification_popup.xml
+git status
+git reset HEAD layout/id_submission_popup.xml
+git restore layout/id_submission_popup.xml
+git status
+git reset HEAD drawable
+git restore drawable
+git status
+pbcopy < ~/.ssh/id_ed25519.pub
+logout
+exit
+git status
+git add -A
+git commit -am "Initialize"
+git branch
+git branch -m main
+git branch
+git remote add origin git@github.com:tjg23/leetcode.git
+git push -u origin main
+bun dev:tauri
+bun dev:tauri
+bun dev:tauri
+bun build:tauri-debug
+bun build:tauri-debug
+bun dev:convex
+bun dev:tauri
+bun dev
+bun dev
+bun dev
+bun dev
+bun dev
+bun outdated
+bun update convex-helpers
+bun dev
+bun dev
+bun dev
+git status
+git branch
+git branch --help
+git add -A
+git commit -am "[Feat] Get access token via better-auth"
+git commit --amend -am "[Feat] Get access token via better-auth"
+bun dev
+bun dev
+git status
+git commit -am "[Feat] Add snapshot_id to playlists"
+bun start
+bunx expo install expo-image
+bun start
+git status
+git add -A
+git commit -am "Setup basic navigation"
+git status
+git add -A
+git commit -am "[LC 3480](POTD)"
+git add -A
+git commit -am "LC 3480 (POTD)"
+git add -A
+git commit -am "LC 128: Longest Consecutive Sequence"
+cd ../..
+ls
+cd 71.00-Sandbox
+ls
+rm -rf my-app
+bun create expo
+cd my-expo-app
+bun start
+bun start
+git status
+git diff .vscode/settings.json
+git status
+git add -A
+git commit -am "Update navigation tabs"
+git status
+git add -A
+git commit -am "LC 2044 (POTD)"
+git add -A
+git commit -am "LC 125: Valid Palindrome"
+git add -A
+git commit -am "2411 (POTD): Smallest Subarrays With Maximum Bitwise OR"
+git status
+git add -A
+git commit -am "LC 2419: Longest Subarray With Maximum Bitwise AND"
+git push
+git status
+git add -A
+git log
+git commit -am "Add themed Text component"
+bun dev
+git commit -am "[Fix] Fetch artists for playlist tracks"
+git commit -am "[Fix] Save album for playlist tracks"
+git commit -am "[Chore] Refactor utils to use protocol symbols"
+git commit --amend -am "[Chore] Refactor utils to use protocol symbols"
+ls
+ls ..
+npm install
+bun dev
+bun dev
+bun dev
+bun dev
+git log
+git commit -am "[Fix] Fetch artists in chunks to avoid rate limit error"
+git commit -am "[Ref] Merge handlers and endpoints into shared files"
+git commit -am "[Feat] Setup user library tables"
+git add -A
+git commit --amend -am "[Feat] Create user library tables"
+bun dev
+bun dev:convex
+bun dev:convex
+git commit -am "fix handler definition locations"
+bun dev
+bun dev
+git commit -am "[Ref] Move basic saving behavior to catalog functions"
+git status
+git commit -am "[Feat] Add library saving to Spotify imports"
+bun dev:convex
+bun dev
+bun dev
+git status
+git log
+git status
+git add src-convex/import
+git status
+git commit --amend -m "[Feat] Add library saving to spotify imports"
+git add -A
+git commit -am "[Chore] Delete old unused spotify tables"
+git push
+bun dev
+bun dev
+bun dev
+git status
+git add -A
+git commit -am "[Feat] Update home screen to show user library"
+git commit --amend -am "[Feat] Update home screen to show user library"
+git status
+git commit -am "[Ref] Partially remove 'Handler' namespaces"
+bun dev
+bun dev:convex
+ls
+ls src-convex
+ls src-convex/+schema
+ls src-convex/_schema
+rm -rf src-convex/+schema
+bun dev:convex
+git status
+git add -A
+git status
+git commit -am 
+git status
+git status
+git add -A
+git status
+git commit -am "[Ref] Move schema validators into folder"
+bun dev:convex
+git add -A
+git commit -am "LC 344: Reverse String"
+git add -A
+git commit -am "LC 56: Merge Intervals"
+git add -A
+git commit -am "LC 148: Sort List"
+git push
+bun dev
+git status
+git commit -am "[Ref] More work on spotify import functions"
+ls
+cd src-tauri
+ls
+rm -rf target
+cd ..
+ls
+bun dev
+ls
+cd Developer
+ls
+cd 60_College
+ls
+mkdir 67
+ls
+cd 67
+cd ../66
+ls
+cd ../67
+mkdir 67.C91
+cd 67.C91
+ls
+git clone https://github.com/GitTor-ISU/GitTor-Web.git
+./tools/run-ui.sh
+node -v
+node
+node --help
+echo $PATH
+nvm install 22
+node -v
+./tools/run-ui.sh
+git status
+git commit -am "[Ref] Edit album and artist upsert functions"
+git push
+bun dev:convex
+git status
+git add -A
+git status
+git commit -am "[Ref] Rename 'user/*' endpoints to 'library/*'\
+"
+git add -A
+git status
+bun dev:convex
+git status
+git commit -am "[Ref] Rename user library tables"
+git status
+git push
+git commit -am "[Fix] missed a few places"
+git push
+git add -A
+git log
+git commit -am "1317: Convert Integer to the Sum of Two No-Zero Integers (POTD)\
+"
+git add -A
+git commit -am "36: Valid Sudoku"
+git push
+git status
+git restore ui/angular.json
+git fetch
+git stash
+git merge origin/main
+git status
+git status
+./tools/run-ui.sh
+git status
+git restore ui/angular.json
+git diff ui/package-lock.json
+git status
+git stash
+git fetch
+git pull
+git branch 17-enforce-user-role
+git status
+git switch 17-enforce-user-role
+git status
+git stash apply
+git add .
+git status
+npm install
+cd ui
+ls
+npm install
+brew uninstall biome
+brew install biome
+git status
+git add .
+git status
+git commit -m "Add checks to UserRoleController to require user role"
+git status
+git add .
+git status
+git commit -m "UserService throws on invalid save"
+git push -u origin 17-enforce-user-role
+git checkout HEAD~1
+git log
+git checkout HEAD~1
+git checkout d2acafe
+git status
+git stash
+git status
+git switch 17-enforce-user-role
+git stash apply
+git status
+git commit -am "Fix tests to include 'user' role"
+git push
+git status
+git commit -am "Restore import order"
+git push
+git status
+git commit -am "Add tests for setting and removing USER role"
+git push
+git status
+git fetch
+git status
+git pull
+git status
+git commit --amend -am "Improve consistency of error message"
+git push --force-with-lease
+git status
+git commit --amend -am "Improve consistency of error message"
+git push --force-with-lease
+git commit --amend -am "Improve consistency of error message"
+git push --force-with-lease
+git status
+git pull
+git switch main
+git pull
+git status
+git branch 19-user-must-exist-with-admin-role
+git switch 19-user-must-exist-with-admin-role
+git status
+git stash
+git stash apply
+git commit -am "(BROKEN) 1st Attempt - add checks in UserService"
+git status
+git log
+git commit -am "2nd Attempt - add checks in controllers"
+git push -u origin 19-user-must-exist-with-admin-role
+git status
+git commit --amend -am "2nd Attempt - add checks in controllers"
+git push --force-with-lease
+source /Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-rc.zsh
+git status
+git pull
+git status
+git log
+git status
+git pull
+git status
+git commit -am "Add user role controller tests"
+git status
+git commit -am "Add user deletion tests"
+git status
+git push
+git status
+git pull
+git status
+mvn checkstyle:check
+cd api
+mvn checkstyle:check
+mvn checkstyle:check
+git commit -am "checkstyle fix"
+git push
+git status
+git commit -am "Update OpenAPI docs"
+git status
+git diff api/src/main/java/api/services/RoleService.java
+git status
+git commit -am "Move role deletion protection from 'delete' to 'detachFromUsers'"
+git push
+git commit -am "Comply with test expectations"
+git push
+git status
+git switch main
+git pull
+git status
+git pull
+git switch 49-template-repository-endpoints
+echo $JAVA_HOME
+echo $PATH
+nu
+java --version
+./mvnw generate-resources
+java --version
+echo $JAVA_HOME
+echo $PATH
+~/.zshrc
+ls /
+ls -a /
+ls ~
+ls -a ~
+hx ~/.zprofile
+reload
+java --version
+./mvnw clean install -DskipTests
+echo $JAVA_HOME
+cd api
+mvn clean install -DskipTests
+java --version
+hx ~/.zprofile
+java --version
+cd api
+java --version
+./mvnw dependency:sources dependency:resolve -Dclassifier=javadoc
+./mvnw clean install -DskipTests
+cd ..
+git status
+git pull
+git switch main
+git pull
+git switch 49-template-repository-endpoints
+git status
+git status
+git add -A
+git status
+git commit -m "Create controller class"
+git status
+git add -A
+git status
+git commit -m "Rename RepoController to TorrentController"
+./mvnw clean install -DskipTests
+cd api
+./mvnw clean install -DskipTests
+pwd
+git clone https://github.com/warpdotdev/hiring-challenge.git
+cd /Users/tjgorton/hiring-challenge
+ls -la
+ls -la /Users/tjgorton/hiring-challenge
+awk -F ' *\| *' 'BEGIN{max=-1} /^#/ {next} NF>=8 && $3=="Mars" && $4=="Completed" && $6 ~ /^[0-9]+$/ {dur=$6+0; if (dur>max){max=dur; code=$8}} END{if (code!="") print code; else print "NOT FOUND"}' /Users/tjgorton/hiring-challenge/space_missions.log
+awk -F ' *\| *' 'NF>=8 && $3 ~ /Mars/ {print NR ":" $0; c++; if(c==5) exit}' /Users/tjgorton/hiring-challenge/space_missions.log | sed -n '1,5p'
+awk -F ' *\| *' 'BEGIN{max=-1} /^#/ {next} {dest=$3; stat=$4; dur=$6; code=$8; gsub(/^ +| +$/, "", dest); gsub(/^ +| +$/, "", stat); gsub(/^ +| +$/, "", dur); gsub(/^ +| +$/, "", code); if (NF>=8 && dest=="Mars" && stat=="Completed" && dur ~ /^[0-9]+$/) {d=dur+0; if (d>max){max=d; best=code}} } END{if (best!="") print best; else print "NOT FOUND"}' /Users/tjgorton/hiring-challenge/space_missions.log
+awk -F ' *\| *' '{dest=$3; stat=$4; gsub(/^ +| +$/, "", dest); gsub(/^ +| +$/, "", stat); if (dest=="Mars" && stat=="Completed") c++} END{print c}' /Users/tjgorton/hiring-challenge/space_missions.log
+grep -n "Mars" /Users/tjgorton/hiring-challenge/space_missions.log | head -n 5
+awk -F ' *\| *' 'NR==19 || NR==23 || NR==31 {print NR, "|", $3, "|", $4, "|", $6, "|", $8}' /Users/tjgorton/hiring-challenge/space_missions.log
+awk 'BEGIN{max=-1} /^#/ {next} {line=$0; gsub(/^[ \t]+|[ \t]+$/, "", line); gsub(/[ \t]*\|[ \t]*/, "|", line); n=split(line, a, /\|/); dest=a[3]; stat=a[4]; dur=a[6]; code=a[8]; gsub(/^[ \t]+|[ \t]+$/, "", dest); gsub(/^[ \t]+|[ \t]+$/, "", stat); gsub(/^[ \t]+|[ \t]+$/, "", dur); gsub(/^[ \t]+|[ \t]+$/, "", code); if (n>=8 && dest=="Mars" && stat=="Completed" && dur ~ /^[0-9]+$/){d=dur+0; if (d>max){max=d; best=code}} } END{if (best!="") print best; else print "NOT FOUND"}' /Users/tjgorton/hiring-challenge/space_missions.log
+man awk
+awk -F '\s*\|\s*' 'BEGIN{max=-1} /^#/ {next} NF>=8 && $3=="Mars" && $4=="Completed" && $6 ~ /^[0-9]+$/ {dur=$6+0; if (dur>max){max=dur; code=$8}} END{if (code!="") print code; else print "NOT FOUND"}' /Users/tjgorton/hiring-challenge/space_missions.log
+nu
+nu
+nu
+nu
+git status
+git add -A
+git status
+git commit -am "Create torrent entity, repo, and service"
+git push
+cd ..
+git status
+git pull
+git worktree add ../formatting 57-backend-formatting
+ls
+git status
+git worktree list
+git worktree remove ../formatting
+git worktree list
+git status
+git worktree add ../formatting 57-backend-formatting
+ls ../formatting/api
+ls ../formatting/api
+ls ~
+ls -a ~
+ls -a ~/.config
+ls ~/Developer
+ls -a ~/Developer
+ls /
+ls /Library
+cp ../formatting/api/eclipse-formatter.xml ~/.config/
+ls ~/.config
+ls /
+ls /Users
+git status
+git add -A
+git commit -am 
+git commit -am "Create torrent DTOs, mapper, and controller"
+git push
+cd Developer
+cd ~
+cd Developer
+ls
+cd 80_Studio
+ls
+node -v
+rm -r 85.01-PersonalSite
+ls
+bun create astro@latest
+cd 85.10-Amare
+ls
+bun dev
+cd ..
+ls
+ls 80.00
+mv 85.10-Amare 80.00/AstroTutorial
+ls
+ls 80.00
+ls 80.00/AstroTutorial
+cd ~/Developer/80_Studio
+ls
+mkdir 85.10-Amare
+ls
+git clone git@github.com:tjg23/amare.dev.git 85.10-Amare/
+cd 85.10-Amare
+ls
+ls
+bun install
+bun install
+bun install
+bun dev
+bun dev
+cd ~/Developer/80_Studio
+ls
+mv 85.10-Amare 85.10-Amare/Dante
+mkdir 85.10
+mkdir 85.10/Dante
+mv 85.10-Amare/* 85.10/Dante/
+ls
+ls 85.10
+ls 85.10/Dante
+ls -a 85.10/Dante
+ls -a 85.10-Amare
+man mv
+mv 85.10/Dante/* 85.10-Amare/
+ls -a 85.10/Dante
+ls -a 85.10-Amare
+mv 85.10-Amare 85.10/Dante
+ls -a 85.10-Amare
+ls -a 85.10/Dante
+mv 85.10/Dante/85.10-Amare/ 85.10/Dante
+ls -a 85.10/Dante
+ls
+mkdir -p 85.10-Amare/Dante
+mv 85.10/Dante/Amare/ 85.10-Amare/Dante/
+mv 85.10/Dante/85.10-Amare/ 85.10-Amare/Dante/
+ls -a 85.10-Amare/Dante
+mv 85.10-Amare/Dante/ 85.10-Amare
+mv 85.10-Amare/Dante/ 85.10/
+ls -a 85.10
+ls -a 85.10/Dante
+ls -a 85.10/Dante/85.10-Amare
+cp -r 85.10/Dante/85.10-Amare 85.10-Amare
+ls -a 85.10-Amare
+rm -rf 85.10-Amare/85.10-Amare
+ls -a 85.10-Amare
+ls -a 85.10/Dante
+ls -a 85.10/Dante/85.10-Amare
+rm -r 85.10-Amare
+mv 85.10/Dante/85.10-Amare ./85.10-Amare
+ls 85.10-Amare
+ls -a 85.10-Amare
+rm -rf 85.10/Dante
+mkdir 85.10
+mv 85.10-Amare 85.10
+ls 85.10
+ls
+mv 85.10 85.10-Amare
+ls
+cd 85.10-Amare
+ls
+mv 85.10-Amare Dante
+ls
+ls Dante
+ls -a Dante
+bun dev
+cd ../
+ls
+git clone git@github.com:tjg23/amare-erudite.git ./Erudite
+ls ./Erudite
+git status
+git pull
+./api/.mvnw checkstyle:check
+./api/mvnw checkstyle:check
+cd api
+./mvnw checkstyle:check
+git push
+cd ..
+git switch main
+git pull
+git switch 49-template-repository-endpoints
+git merge main
+cd api
+./mvnw checkstyle:check
+./mvnw checkstyle:check
+git status
+git commit -am "Fix formatting"
+git push
+./mvnw checkstyle:check
+git status
+git commit -am "Improve consistency of controller methods and endpoints"
+./mvnw dependency:sources dependency:resolve -Dclassifier=javadoc
+./mvnw clean install -DskipTests
+git status
+git commit --amend -am "Improve consistency of controller methods"
+git status
+./mvnw test -Dtest=TorrentControllerTest
+bun dev
+cd Dante
+bun dev
+bun dev
+bun dev
+bun dev
+bun dev
+bun dev
+bun dev
+cd ../Erudite
+bun install
+bun pm untrusted
+bun pm trust
+bun pm trust @tailwindcss/oxide
+bun dev
+bun x @astrojs/upgrade
+bun install
+bun dev
+cd ../Dante
+bun dev
+bun dev
+bun dev
+git status
+git log
+jj st
+jj config set --user user.name "Tyler Gorton"
+jj config set --user user.email "tjgorton23@icloud.com"
+ls -a ~
+hx ~/.zprofile
+jj git init --colocate
+jj bookmark list
+jj bookmark track main@origin
+jj st
+jj describe "Begin personalizing site"
+jj describe -m "Begin personalizing site"
+jj b move main --to @
+jj git push
+bun dev
+git st
+git status
+git add -A
+git commit -am "Add tests for torrent controller"
+cd api
+./mvnw checkstyle:check
+cd ..
+ls
+cd api
+./mvnw checkstyle:check
+git log
+git commit --amend -am "Add tests for torrent endpoints"
+cd ..
+git status
+git push
+bun dev
+bun dev
+jj st
+jj commit -m "Design site header"
+jj log
+jj bookmark move main @-
+jj bookmark move main -r @-
+jj bookmark move main --to @-
+jj git push
+bun dev
+bun dev
+bun dev
+git status
+git pull
+bun dev
+bun dev
+jj st
+jj commit -m "Move md pages out of content collection"
+jj bookmark move main --to @-
+jj git push
+bun dev
+jj st
+jj commit -m "Begin customizing content pages"
+jj b move main --to @-
+jj git push
+bun dev
+jj st
+jj commit -m "Move src/data/site-config.ts to src/site.config.ts"
+git status
+git commit -am "Update docs in ./docs/Home.md"
+git push
+bun dev
+bun dev
+bun dev
+bun x @astrojs/upgrade
+jj st
+jj commit -m "Begin rewriting 'About' info"
+jj b move main @-
+jj b move main --to @-
+jj git push
+jj log
+jj log ::
+jj log -r ::
+bun dev
+bun dev
+jj st
+jj new -B @ -m "Replace relative path imports"
+jj next --edit
+jj squash -i
+jj st
+jj describe -m "Edit 'about me' text"
+jj st
+jj b move main --to @
+jj git push
+bun dev
+jj st
+jj commit -m "Add Monaspace fonts"
+bun dev
+jj st
+jj squash -i
+jj config set --user ui.diff-editor :builtin
+jj describe -m "Edit colors & styling"
+bun dev
+jj st
+bun dev
+bun dev
+bun dev
+bun dev
+bun dev
+jj st
+bun dev
+bun dev
+bun dev
+bun dev
+bun dev
+jj st
+bun dev
+bun dev
+bun x @astrojs/upgrade
+bun dev
+bun dev
+bun dev
+bun dev
+bun dev
+jj st
+bun dev
+jj st
+jj b move main --to @
+jj git push
+bun run build
+jj st
+jj describe -m "Add deployment config"
+jj b move main --to @
+jj git push
+dig _github-pages-challenge-tjg23.amare.dev +nostats +nocomments +nocmd TXT
+dig amare.dev +noall +answer -t A
+dig amare.dev +noall +answer -t ALIAS
+dig amare.dev +noall +answer -t
+dig amare.dev +noall +answer
+dig amare.dev +noall +answer -t A
+dig amare.dev +noall +answer -t AAAA
+dig amare.dev +noall +answer -t A
+dig amare.dev +noall +answer -t AAAA
+dig amare.dev +noall +answer -t A
+dig amare.dev +noall +answer -t A
+dig amare.dev +noall +answer -t AAAA
+jj st
+jj squash
+jj describe -m "Update deployment config for custom domain"
+jj b move main --to @
+jj git push
+jj st
+dotnet
+dotnet new install MonoGame.Templates.CSharp
+dotnet new mgdesktopgl\
+
+cargo new
+cargo new tinycompiler
+git status
+cd ..
+git status
+git fetch origin
+git switch 81-change-page-titles
+sh ./tools/run-ui.sh
+sh ./tools/run-ui.sh
+git status
+git diff ui/package-lock.json
+git status
+npm install -g npm@11.8.0
+sh ./tools/run-ui.sh
+git status
+git diff ui/package-lock.json
+git restore ui/package-lock.json
+sh ./tools/run-ui.sh
+git status
+git add -A
+git commit -am "Add page titles"
+git push
+git status
+git commit -am "Fix formatting"
+git push
+ls
+cd tinycompiler
+jj git init
+jj git init --colocate
+jj st
+jj describe -m "Create project and basic AST types"
+jj git remote add origin git@github.com:tjg23/tinycompiler.git
+jj bookmark
+jj b c main
+jj git push
+jj git push --allow-new
+git status
+sh ./tools/run-ui.sh
+git status
+git switch main
+git pull
+git branch
+git switch 49-template-repository-endpoints
+git pull
+./mvnw checkstyle:check
+git status
+git commit -am "Subsumed CreateTorrentDto and UpdateTorrentDto into TorrentDto + added validation"
+git status
+cd ..
+git status
+git push
+git branch
+git switch 57-backend-formatting
+git branch -r
+git branch repositories-1
+git status
+git branch -M repositories-1
+git status
+git branch
+git branch --help
+git branch -m 49-template-repository-endpoints
+git branch
+git branch --help
+git branch repositories-1 origin/repositories-1
+git branch
+git switch repositories-1
+git pull
+git status
+sh ./tools/test-e2e.sh
+git status
+git branch
+git switch main
+git pull
+sh ./tools/test-e2e.sh
+git diff --help
+git diff repositories-1 main ./ui/src/app/features/auth/login/login.html
+git diff repositories-1 main ./ui/src/app/app.routes.ts
+git diff repositories-1 main ./ui/src/app/features/auth/auth-routes.ts
+git status
+git switch repositories-1
+sh ./tools/run-ui.sh
+git status
+git restore ui/package-lock.json
+git status
+sh ./tools/test-e2e.sh
+sh ./tools/run-ui.sh
+ng generate guard username
+cd ui
+ng generate guard username
+bun install -g @angular/cli
+ng generate guard username
+cd ..
+sh ./tools/run-ui.sh
+git branch
+git worktree --help
+git worktree --help
+git worktree list
+git worktree remove 57-backend-formatting
+git worktree remove formatting
+git branch
+git branch repositories-2
+git switch repositories-2
+git merge main
+git status
+git add -A
+git status
+git commit -m "Fix repository page titles & add guard to fix shadowing of auth routes"
+git merge main
+git status
+git add -a
+git add -A
+git status
+git commit
+sh ./tools/run-ui.sh
+git status
+git branch
+git switch repositories-1
+git status
+git add -A
+git commit -m "Fix repository route titles & shadowing of auth routes"
+sh ./tools/run-ui.sh
+sh ./tools/test-e2e.sh
+git diff main ./ui/src/app/app.routes.ts
+git diff main repositories-1 ./ui/src/app/app.routes.ts
+git status
+git branch
+git status
+git pull
+git stash
+git pull
+git push
+jj st
+ls
+cd ..
+ls
+git fetch origin\
+
+git checkout 78-update-theme-service-to-use-signal
+jj st
+bun run build
+bun dev
+jj st
+jj restore src/components/NavLink.astro
+jj st
+bun dev
+jj st
+jj describe -m "Update personal info"
+jj split
+jj op undo
+jj split
+jj st
+jj b m main --to @
+jj git push
+ls
+cd 2D-Monogame
+ls
+dotnet mgcb-editor ./Content/Content.mgcb\
+
+dotnet tool restore
+dotnet mgcb-editor ./Content/Content.mgcb\
+
+dotnet mgcb-editor ./Content/Content.mgcb\
+
+dotnet mgcb-editor ./Content/Content.mgcb\
+
+bun dev
+sh ./tools/run-ui.sh
+sh ./tools/run-ui.sh
+git switch main
+sh ./tools/run-ui.sh
+git pull
+git branch
+git switch 78
+git switch 78-update-theme-service-to-use-signal
+git status
+git commit -am "Update theme service to use signal"
+git switch main
+git pull
+git switch 78-update-theme-service-to-use-signal
+git merge main
+git status
+git commit
+git add -A
+git commit
+sh ./tools/run-ui.sh
+git status
+git push
+ls
+ls
+cd 1-Minigolf
+ls
+ls
+dotnet new mglib -n MGLib
+ls
+dotnet new mglib -n MGLib
+dotnet sln 1-Minigolf.sln add ./MGLib/MGLib.csproj
+ls
+cd ..
+ls
+rm -rf 1-Minigolf
+rm 1-Monogame.sln
+ls
+mkdir 1-Minigolf
+ls
+dotnet new mgdesktopgl
+ls
+ls
+cd ..
+ls
+mkdir 1-Monogame
+mv ./2D-Monogame ./1-Monogame/0-2D_Tutorial
+ls
+ls 1-Monogame
+dotnet --version
+dotnet --list-sdks
+ls
+cd 1-Monogame
+ls
+mkdir 1-Minigolf
+ls
+ls
+rm 1-Monogame.sln
+rm -rf ./1-Minigolf
+mv ./Minigolf ./1-Minigolf
+ls
+cd 1-Minigolf
+cargo new
+cargo new assignment
+cd assignment
+cargo test
+cargo test
+dotnet sln
+dotnet sln NanoGolf.slnx
+dotnet sln -h
+dotnet sln ./1-Minigolf.sln add ./MGLib/MGLib.csproj
+ls
+cd NanoGolf
+ls
+dotnet add ./NanoGolf.csproj reference ../MGLib/MGLib.csproj
+cd /
+ls
+ls usr
+ls usr/lib
+git status
+git switch main
+git restore ui/package-lock.json
+git status
+git pull
+cd assignment/
+cargo test
+nusmv --version
+$PATH
+echo $PATH
+sed
+sed --help
+echo $PATH | sed 's/:/\n/g'
+hx ~/.zprofile
+mv ~/Downloads/NuSMV-2.6.0-Darwin /Library/NuSMV-2.6.0-Darwin
+hx ~/.zshenv
+hx ~/.zshenv
+hx ~/.zprofile
+hx ~/.zshenv
+hx ~/.zprofile
+echo $PATH
+echo $PATH | sed 's/:/\n/g'
+nu
+echo $PATH | sed 's/:/\n/g'
+nu

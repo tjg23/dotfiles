@@ -1,0 +1,11 @@
+theme = "carbonfox"
+
+[editor.statusline]
+mode.normal = "N"
+mode.insert = "I"
+mode.select = "V"
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "underline"

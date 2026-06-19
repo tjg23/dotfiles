@@ -1,0 +1,280 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+	"outline_panel": {
+		"dock": "left"
+	},
+	"collaboration_panel": {
+		"dock": "left"
+	},
+	"git_panel": {
+		"dock": "left"
+	},
+	"terminal": {
+		"shell": "system"
+		// "shell": {
+		// 	"program": "/opt/homebrew/bin/nu"
+		// }
+	},
+	"edit_predictions": {
+		"open_ai_compatible_api": {
+			"max_output_tokens": 63
+		},
+		"provider": "zed"
+	},
+	"file_types": {
+		"XML": ["csproj"]
+	},
+	"languages": {
+		"Markdown": {
+			"show_edit_predictions": false
+		},
+		"Astro": {
+			"formatter": {
+				"language_server": {
+					"name": "biome"
+				}
+			}
+		},
+		"CSS": {
+			"formatter": {
+				"language_server": {
+					"name": "biome"
+				}
+			}
+		},
+		"HTML": {
+			"formatter": {
+				"language_server": {
+					"name": "biome"
+				}
+			}
+		},
+		"JSON": {
+			"formatter": {
+				"language_server": {
+					"name": "biome"
+				}
+			}
+		},
+		"JSONC": {
+			"formatter": {
+				"language_server": {
+					"name": "biome"
+				}
+			}
+		},
+		"JSX": {
+			"formatter": {
+				"language_server": {
+					"name": "biome"
+				}
+			},
+			"code_actions_on_format": {
+				"source.fixAll.biome": true,
+				"source.organizeImports.biome": true
+			}
+		},
+		"JavaScript": {
+			"formatter": {
+				"language_server": {
+					"name": "biome"
+				}
+			},
+			"code_actions_on_format": {
+				"source.fixAll.biome": true,
+				"source.organizeImports.biome": true
+			}
+		},
+		"Svelte": {
+			"formatter": {
+				"language_server": {
+					"name": "biome"
+				}
+			}
+		},
+		"TSX": {
+			"formatter": {
+				"language_server": {
+					"name": "biome"
+				}
+			},
+			"code_actions_on_format": {
+				"source.fixAll.biome": true,
+				"source.organizeImports.biome": true
+			}
+		},
+		"TypeScript": {
+			"formatter": {
+				"language_server": {
+					"name": "biome"
+				}
+			},
+			"code_actions_on_format": {
+				"source.fixAll.biome": true,
+				"source.organizeImports.biome": true
+			}
+		},
+		"Vue.js": {
+			"formatter": {
+				"language_server": {
+					"name": "biome"
+				}
+			}
+		}
+	},
+	"project_panel": {
+		"dock": "left",
+		"hide_hidden": false
+	},
+	"ssh_connections": [
+		{
+			"host": "github.com",
+			"args": [],
+			"projects": []
+		}
+	],
+	"ui_font_size": 15.0,
+	"buffer_font_size": 13.0,
+	"theme": {
+		"mode": "system",
+		"light": "One Light",
+		"dark": "Flexoki Dark"
+	},
+	"icon_theme": "JetBrains New UI Icons (Dark)",
+	"git": {
+		"inline_blame": {
+			"delay_ms": 500
+		}
+	},
+	"tabs": {
+		"git_status": true,
+		"file_icons": true
+	},
+	"inlay_hints": {
+		"enabled": true
+	},
+	"hard_tabs": true,
+	"minimap": {},
+	"gutter": {
+		"min_line_number_digits": 3
+	},
+	"formatter": "language_server",
+	// AI Features
+	"agent": {
+		"dock": "right",
+		"favorite_models": [
+			{
+				"provider": "anthropic",
+				"model": "claude-opus-4-6-latest",
+				"enable_thinking": false
+			},
+			{
+				"provider": "anthropic",
+				"model": "claude-sonnet-4-6-latest",
+				"enable_thinking": false
+			},
+			{
+				"provider": "zed.dev",
+				"model": "claude-sonnet-4-6",
+				"enable_thinking": false
+			},
+			{
+				"provider": "anthropic",
+				"model": "claude-opus-4-7-latest",
+				"enable_thinking": true,
+				"effort": "high"
+			},
+			{
+				"provider": "zed.dev",
+				"model": "gpt-5.5",
+				"enable_thinking": true,
+				"effort": "high"
+			},
+			{
+				"provider": "anthropic",
+				"model": "claude-opus-4-7",
+				"enable_thinking": true,
+				"effort": "high"
+			}
+		],
+		"inline_assistant_model": {
+			"provider": "copilot_chat",
+			"model": "gpt-5.3-codex",
+			"enable_thinking": false
+		},
+		"profiles": {
+			"agent": {
+				"name": "Agent",
+				"tools": {},
+				"enable_all_context_servers": false,
+				"context_servers": {}
+			}
+		},
+		"default_profile": "write",
+		"default_model": {
+			"enable_thinking": true,
+			"effort": "high",
+			"provider": "anthropic",
+			"model": "claude-opus-4-7"
+		}
+	},
+	// LSP Config
+	"lsp": {
+		"vtsls": {
+			"settings": {
+				"typescript": {
+					"updateImportsOnFileMove": {
+						"enabled": "always"
+					}
+				},
+				"javascript": {
+					"updateImportsOnFileMove": {
+						"enabled": "always"
+					}
+				}
+			},
+			"enable_lsp_tasks": true
+		},
+		"jdtls": {
+			"settings": {
+				"java": {
+					"home": "/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home",
+					"configuration": {
+						"runtimes": [
+							{
+								"name": "JavaSE-17",
+								"path": "/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home"
+							}
+						]
+					},
+					"jdt": {
+						"ls": {
+							"lombokSupport": {
+								"enabled": true
+							}
+						}
+					},
+					"format": {
+						"settings": {
+							"url": "file:///Users/tjgorton/.config/eclipse-formatter.xml"
+						}
+					},
+					"completion": {
+						"importOrder": ["#", "java", "javax", "", "api"]
+					},
+					"saveActions": {
+						"organizeImports": true
+					}
+				}
+			}
+		}
+	}
+	// "helix_mode": true,
+}

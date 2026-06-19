@@ -1,0 +1,114 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+	// Appearance
+	"languages": {
+  "Markdown": {
+   "show_edit_predictions": false
+  }
+ },
+ "project_panel": {
+  "hide_hidden": false
+ },
+ "ssh_connections": [
+  {
+   "host": "github.com",
+   "args": [],
+   "projects": []
+  }
+ ],
+ "ui_font_size": 15.0,
+	"buffer_font_size": 13.0,
+	"theme": {
+		"mode": "system",
+		"light": "One Light",
+		"dark": "Flexoki Dark"
+	},
+	"icon_theme": "JetBrains New UI Icons (Dark)",
+	"git": {
+		"inline_blame": {
+			"delay_ms": 500
+		}
+	},
+	"tabs": {
+		"git_status": true,
+		"file_icons": true
+	},
+	"inlay_hints": {
+		"enabled": true
+	},
+	"hard_tabs": true,
+	"minimap": {},
+	"gutter": {
+		"min_line_number_digits": 3
+	},
+	"formatter": "language_server",
+	// AI Features
+	"features": {
+		"edit_prediction_provider": "copilot"
+	},
+	"agent": {
+		"profiles": {
+			"agent": {
+				"name": "Agent",
+				"tools": {},
+				"enable_all_context_servers": false,
+				"context_servers": {}
+			}
+		},
+		"default_profile": "write",
+		"default_model": {
+			"provider": "copilot_chat",
+			"model": "claude-opus-4.6"
+		}
+	},
+	// LSP Config
+	"lsp": {
+		"jdtls": {
+			"settings": {
+				"java": {
+					"home": "/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home",
+					"configuration": {
+						"runtimes": [
+							{
+								"name": "JavaSE-17",
+								"path": "/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home"
+							}
+						]
+					},
+					"jdt": {
+						"ls": {
+							"lombokSupport": {
+								"enabled": true
+							}
+						}
+					},
+					"format": {
+						"settings": {
+							"url": "file:///Users/tjgorton/.config/eclipse-formatter.xml"
+						}
+					},
+					"completion": {
+						"importOrder": [
+							"#",
+							"java",
+							"javax",
+							"",
+							"api"
+						]
+					},
+					"saveActions": {
+						"organizeImports": true
+					}
+				}
+			}
+		}
+	}
+	// "helix_mode": true,
+}
