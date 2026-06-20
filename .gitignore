@@ -1,3 +1,4 @@
 dot-config
 
-shell.nushell/.config/nushell/history.txt
+**/history.txt
+**/.zsh_history
